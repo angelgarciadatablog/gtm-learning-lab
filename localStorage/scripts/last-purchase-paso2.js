@@ -1,6 +1,6 @@
-
+// 🎯 Pixel personalizado que guarda la compra en localStorage
 //Insertar esto en la parte de eventos de cliente se shopify como un pixel personalizado
-// 🎯 Pixel personalizado: guarda la compra en localStorage
+
 
 analytics.subscribe("checkout_completed", (event) => {
   console.log("🛒 Evento checkout_completed recibido:", event);
